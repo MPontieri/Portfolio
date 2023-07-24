@@ -105,7 +105,7 @@ strong{
 
 .imagem__botao{
     width: 80px;
-    padding-left: 110px;
+    padding-left: 105px;
 }
 
 .rodape{
@@ -117,9 +117,10 @@ strong{
 }
 
 @media (max-width: 1200px) {
+    body{
+        box-sizing: inherit;
+    }
     .principal{
-        padding: 0%;
-        margin: 0;
         gap: 40px;
     }
     .imagem__principal{
